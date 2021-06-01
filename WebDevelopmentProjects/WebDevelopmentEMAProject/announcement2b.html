@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="Sacha Ponniah" />
+  <meta name="pi number" content="K1353583" />
+  <title>Announcements Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="announcement2b.css" />
+</head>
+<body>
+  <header>
+    <picture>
+      <source srcset="images/large_logo.jpg" media="(min-width: 420px)">
+      <source srcset="images/small_logo.jpg" media="(max-width: 400px)">
+      <img src="images/large_logo.jpg" alt="OU Walking Club Logo">
+    </picture>
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Walks</a></li>
+        <li><a href="">Social Events</a></li>
+        <li><a href="">Membership</a></li>
+        <li><a href="">News</a></li>
+        <li><a class="currentpage" href="">Announcements</a></li>
+        <li class="logoutbutton"><a href="">Logout</a></li>
+      </ul>
+      <button id="logout">Logout</button>
+      <select>
+        <option value="">Home</option>
+        <option value="">Walks</option>
+        <option value="">Social Events</option>
+        <option value="">Membership</option>
+        <option value="">News</option>
+        <option value="announcements" selected>Announcements</option>
+      </select>      
+    </nav>
+  </header>
+  <h2>Announcements</h2>
+  <main>
+    <form
+      method="POST" action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php" 
+      id="announcements"
+      enctype="multipart/form-data">
+      <section class="subject_content">
+        <h3>Create announcement</h3>
+        <div>
+          <p>From: OUWalkingClubEmail@address</p>
+        </div>
+        <div>
+          <label for="subject">Subject:</label>
+          <input id="subject" name="subject" type="text"/>
+        </div>
+        <div>
+          <label for="content">Content:</label><br>
+          <textarea id="content" name="content" rows="10" cols="80" placeholder="Enter your announcement content here..."></textarea>
+        </div>
+      </section>
+      <div>
+        <label for="send_date">Send date:</label>
+        <input type="date" id="send_date" name="send_date" />
+      </div>
+      <div>
+        <label for="attachment">Attachment:</label>
+        <input type="file" id="attachment" name="attachment"/>
+      </div>
+      <section class="submit_reset">
+        <label for="submit" class="visuallyhidden">Schedule announcement: </label>
+        <input type="submit" id="submit" name="schedule"  value="Schedule announcement"/>
+        <label for="reset" class="visuallyhidden">Clear form: </label>
+        <input type="reset" id="reset" value="Clear form"/>
+        <input type="hidden" name="sessionid" id="sessionid" value="1234abcd-5678-9090-efef"/>
+      </section>
+    </form>
+  </main>
+  <footer>
+    <a href="">Privacy</a>
+    <a href="">Contact</a>
+    <a href="">FAQs</a>
+    <a href="">Copyright</a>
+    <a href="">Conditions of use</a>
+    <div id="photocredit">
+      <p>Photo credit - Adam Burton / Robert Harding World Imagery / Universal Images. Accessed: 05/05/2021 at 
+      <a href="https://quest.eb.com/search/151_2517467/1/151_2517467/cite">Britannica ImageQuest</a></p> 
+    </div>
+  </footer>
+</body>
+</html>
