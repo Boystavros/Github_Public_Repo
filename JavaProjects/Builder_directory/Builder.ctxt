@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Builder()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Builder\r\n
+comment1.params=aReg\ aName\ anAddress\ aTrade
+comment1.target=void\ addContractor(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Creates\ a\ constructor\ object,\ initialises\ it\ with\ the\ name,\r\n\ address\ and\ trade\ arguments\ provided\ and\ adds\ it\ to\ the\ \r\n\ receiver's\ constructors\ variable,\ referenced\ by\ the\ \r\n\ vehicle\ registration\ argument\ provided.\ \r\n
+comment2.params=
+comment2.target=void\ printContractors()
+comment2.text=\r\n\ Prints\ a\ String\ representation\ of\ each\ Contractor\ in\ receiver's\ \r\n\ contractors\ collection,\ one\ per\ line.\r\n
+numComments=3

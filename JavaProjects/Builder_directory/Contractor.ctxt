@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=aName\ anAddress\ aTrade
+comment0.target=Contractor(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Contractor\r\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\r\n\ returns\ the\ name\ of\ the\ contractor\r\n
+comment2.params=
+comment2.target=java.lang.String\ getAddress()
+comment2.text=\r\n\ returns\ the\ address\ of\ the\ contractor\r\n
+comment3.params=
+comment3.target=java.lang.String\ getTrade()
+comment3.text=\r\n\ returns\ the\ trade\ of\ the\ contractor\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ returns\ a\ string\ representation\ of\ the\ contractor\r\n
+numComments=5

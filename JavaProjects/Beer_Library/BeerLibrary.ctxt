@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BeerLibrary()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ BeerLibrary\r\n
+comment1.params=
+comment1.target=void\ populateBreweries()
+comment1.text=\r\n\ Populates\ the\ receiver's\ breweries\ map\ with\ \r\n\ test\ data,\ with\ brewery\ names\ as\ keys\ and\ \r\n\ sets\ of\ beer\ names\ as\ values.\r\n
+comment2.params=
+comment2.target=void\ printMap()
+comment2.text=\r\n\ Prints\ out\ the\ name\ of\ each\ brewery\ recorded\ in\ receiver's\ \r\n\ breweries\ map,\ along\ with\ the\ set\ of\ stocked\ beers\r\n\ produced\ by\ each\ brewery.\r\n
+comment3.params=aBrewery
+comment3.target=void\ printMapValue(java.lang.String)
+comment3.text=\r\n\ If\ aBrewery\ is\ in\ receiver's\ breweries\ map,\ \r\n\ prints\ the\ brewery\ name\ followed\ by\ the\ set\ containing\ \r\n\ stocked\ beers\ produced\ by\ it.\ Otherwise,\ prints\ unsuccessful\ \r\n\ message.\r\n\ @param\ aBrewery\ a\ single\ String,\ \r\n\ representing\ the\ name\ of\ a\ brewery.\r\n
+comment4.params=aBrewery\ aBeerSet
+comment4.target=void\ addMapEntry(java.lang.String,\ java.util.Set)
+comment4.text=\r\n\ Adds\ a\ brewery\ and\ the\ set\ of\ beers\ produced\ by\ it\ to\ receiver's\r\n\ breweries\ map.\ If\ the\ brewery\ is\ already\ present\ in\ receiver's\ \r\n\ breweries\ map,\ the\ existing\ set\ of\ beers\ is\ overwritten.\r\n\ @param\ aBrewery\ a\ single\ String,\ representing\ the\ name\ of\ a\ brewery.\r\n\ @param\ aBeerSet\ a\ Set\ of\ Strings,\ representing\ beers\ produced\ by\ that\ \r\n\ brewery.\r\n
+comment5.params=aBrewery
+comment5.target=boolean\ deleteEntry(java.lang.String)
+comment5.text=\r\n\ If\ the\ brewery\ passed\ is\ in\ the\ receiver's\ breweries\ map,\ removes\ it\ \r\n\ and\ the\ set\ of\ beers\ it\ produces\ from\ the\ breweries\ map\ and\ returns\ \r\n\ true.\ Otherwise,\ returns\ false.\r\n\ @param\ aBrewery\ a\ single\ String,\ representing\ the\ name\ of\ a\ brewery.\r\n
+comment6.params=aBrewery\ aBeer
+comment6.target=void\ addToValueAtKey(java.lang.String,\ java.lang.String)
+comment6.text=\r\n\ Adds\ the\ beer\ name\ passed\ to\ the\ set\ of\ beers\ produced\ by\ the\ brewery\r\n\ whose\ name\ was\ passed.\r\n\ @param\ aBrewery\ a\ single\ String,\ representing\ the\ name\ of\ a\ brewery\ in\ \r\n\ receiver's\ breweries\ map.\r\n\ @param\ aBeer\ a\ single\ String,\ representing\ the\ name\ of\ a\ beer\ produced\r\n\ by\ aBrewery.\r\n
+comment7.params=aBrewery\ aBeer
+comment7.target=void\ deleteFromValueAtKey(java.lang.String,\ java.lang.String)
+comment7.text=\r\n\ Removes\ the\ beer\ with\ the\ name\ passed\ from\ the\ set\ of\ beers\ produced\r\n\ by\ the\ brewery\ whose\ name\ was\ passed.\r\n\ @param\ aBrewery\ a\ single\ String,\ representing\ the\ name\ of\ a\ brewery\ in\ \r\n\ receiver's\ breweries\ map.\r\n\ @param\ aBeer\ a\ single\ String,\ representing\ the\ name\ of\ a\ beer\ in\ the\r\n\ set\ of\ beers\ produced\ by\ aBrewery.\r\n
+numComments=8
