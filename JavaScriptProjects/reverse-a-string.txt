@@ -1,0 +1,22 @@
+Reverse a String
+================
+Reverse the provided string.
+
+You may need to turn the string into an array before you can reverse it.
+
+Your result must be a string.
+===========================================================================================================================
+function reverseString(str) {
+  let strArray = Array.from(str);
+  console.log(strArray);//testLine
+  strArray.reverse();
+  console.log(strArray);//testLine
+  let reversedStr = "";
+  for (let letter in strArray)
+  {
+    reversedStr = reversedStr + strArray[letter];
+  }
+  return reversedStr;
+}
+
+reverseString("hello");
