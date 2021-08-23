@@ -4,38 +4,10 @@ Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-da
 ===========================================================================================================================
 
 function spinalCase(str) {
-  let letters = str.split("");
-  console.log(letters);
-  let capsRegex = /[A-Z]/;
-  let nonAlphaRegex = /[\W_]/;
-  let capsIndexArr = [];
-  for(let i = 0; i < letters.length; i++){
-      if(capsRegex.test(letters[i])){
-        capsIndexArr.push(i);
-    }
-  console.log(capsIndexArr);
-  }
-  let spaceCount = 0;
-  for(let index in capsIndexArr){
-    if(!nonAlphaRegex.test((letters[capsIndexArr[index] + spaceCount - 1])) 
-        && capsIndexArr[index] !== 0) {
-      letters.splice(capsIndexArr[index] + spaceCount, 0, " ");
-      spaceCount++;
-    }
-    
-  };
-  console.log(letters)
-  let nonCaps = letters.join("");
-  console.log(nonCaps)
-  
-
-  let nonAlphRegex = /[\W_]/;
-  var smallWords = nonCaps.split(nonAlphRegex);
-  console.log(smallWords);
-
-  let newStr = smallWords.join("-").toLowerCase();
-  console.log(newStr);
-  return newStr;
+  let spaceRegex = /\s+|_+/g;
+  let capsRegex = /([a-z])([A-Z])/g
+  str = str.replace(capsRegex, '$1 $2');
+  return str.replace(spaceRegex, "-").toLowerCase();
 }
 
-spinalCase("AllThe-small Things"); 
+spinalCase("AllThe-small Things");
