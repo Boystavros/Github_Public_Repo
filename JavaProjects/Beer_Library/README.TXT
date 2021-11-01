@@ -1,5 +1,7 @@
 PROJECT TITLE: TMA03 Q3
-PURPOSE OF PROJECT: Beer Library
+PURPOSE OF PROJECT: 
+A university assignment project that demonstrates the creation of Map and Set data structures and the use of some of their methods
+
 VERSION or DATE: Main 09/04/21
 AUTHORS: Sacha Ponniah
 --------------------------------------------------------------------
