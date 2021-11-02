@@ -3,7 +3,6 @@ import ou.*;
  * Class Rocket allows a representation of a rocket to be created in the Shapes
  * Window, and for it to move up the screen.
  * 
- * This class is incomplete.
  * 
  * @author (Sacha Ponniah, K1353583) 
  * @version (27 November 2020)
