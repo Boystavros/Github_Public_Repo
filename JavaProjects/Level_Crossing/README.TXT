@@ -10,7 +10,7 @@ repeat functionality already provided.
 
 TWe were asked to write code exclusively in the LevelCrossingController class. This class decides which lights should be showing which colour at what point when a train approaches.
 
-VERSION or DATE: Main 09/04/21
+VERSION or DATE: Main 07/02/21
 AUTHORS: Sacha Ponniah
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Test code for use with application:
