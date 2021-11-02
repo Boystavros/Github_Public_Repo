@@ -8,7 +8,7 @@ First a single orange light is lit, and then a pair of red lights flash on and o
 We were provided with the complete class Light in the supplied project and this class was not to be changed. We were asked to look at the code for this carefully and ensure that when writing methods we didn't 
 repeat functionality already provided.
 
-TWe were asked to write code exclusively in the LevelCrossingController class. This class decides which lights should be showing which colour at what point when a train approaches.
+We were asked to write code exclusively in the LevelCrossingController class. This class decides which lights should be showing which colour at what point when a train approaches.
 
 VERSION or DATE: Main 07/02/21
 AUTHORS: Sacha Ponniah
