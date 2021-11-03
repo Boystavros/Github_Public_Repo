@@ -10,6 +10,6 @@ In this project we were asked to complete a class called Rocket.
 Once completed this class produces a simple animated rocket (in 
 a BlueJay graphics window) that performs a launch sequence and moves vertically up the screen at a speed based on the user's input.
 
-**Test inputs for this application can be found in [testdata.md](https://github.com/Boystavros/Github_Public_Repo/blob/master/JavaProjects/Rocket/testdata.md)**
+**Test inputs for this application can be found in [testdata.md](https://github.com/Boystavros/Github_Public_Repo/blob/master/JavaProjects/Rocket_Launch/testdata.md)**
 
 
