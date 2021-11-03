@@ -1,4 +1,4 @@
-<h1>Beer Library</h1>
+<h1>Beer Library Application</h1>
 
 <h3>PURPOSE OF PROJECT:</h3> 
 
