@@ -1,4 +1,4 @@
-<h1> Caesars Cipher Application</h1>
+<h1> Caesar's Cipher Application</h1>
 
 <h3> PURPOSE OF PROJECT: </h3>
 
