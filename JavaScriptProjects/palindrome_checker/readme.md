@@ -1,6 +1,6 @@
 <h1> Palindrome Checker Application </h1>
 
-<h3> PURPOSE OF PROJECT: <h3>
+<h3> PURPOSE OF PROJECT: </h3>
 
 This was my solution to one of the five problems to obtain the FreeCodeCamp.org JavaScript 
 Algorithms and Data Structures certification.
