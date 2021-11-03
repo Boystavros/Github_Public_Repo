@@ -1,5 +1,4 @@
-<h1>ReadMe</h1>
-<h2>PROJECT TITLE: Beer Library</h2>
+<h1>Beer Library</h1>
 
 <h3>PURPOSE OF PROJECT:</h3> 
 
