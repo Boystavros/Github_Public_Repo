@@ -1,4 +1,6 @@
-<h1>Beer Library ReadMe</h1> 
+<h1>ReadMe</h1>
+<h2>PROJECT TITLE: Beer Library</h2>
+
 <h3>PURPOSE OF PROJECT:</h3> 
 
   This was my solution to a University Assignment question (from 1st Hons year of BSc Computing & IT).</br>
