@@ -1,5 +1,5 @@
-<h1>Beer Library ReadMe<h1> 
-<h3>PURPOSE OF PROJECT:<h3> 
+<h1>Beer Library ReadMe</h1> 
+<h3>PURPOSE OF PROJECT:</h3> 
 
 <h5>
   This was my solution to a University Assignment question (from 1st Hons year of BSc Computing & IT).</br></br>
@@ -18,12 +18,9 @@
   | Type of key (String or integer) |	String |
   | Type of value (must be from Collections framework) |	Set of Strings |
   | Type of map (sorted or unsorted) |	unsorted |
-  <h5>
+  </h5>
 
-<h3> Date: 09/04/21 <h3>
-<h3> Author: Sacha Ponniah <h3>
-
-The following test code can be used to test the application.
+<h4> The following test code can be used to test the application. </h4>
 
 Create new BeerLibrary and assign it to bl1:
   
@@ -32,14 +29,16 @@ BeerLibrary bl1 = new BeerLibrary();
 ```
 
 
-Test populateBreweries():
+Populate bl1 with several breweries:
 
 ```java
 bl1.populateBreweries();
 ```
 
-//test printMap()
+Print the list of breweries in bl1:
+```java
 bl1.printMap();
+```
 
 //test printMapValue()
 bl1.printMapValue("Tempest");//brewery is in beerLibrary
