@@ -13,4 +13,4 @@ We were asked to write code exclusively in the LevelCrossingController class but
 
 This LevelCrossingController class decides which lights should be showing which colour at what point when a train approaches.
 
-**Test inputs for this application can be found in [testdata.md]()**
+**Test inputs for this application can be found in [testdata.md](https://github.com/Boystavros/Github_Public_Repo/blob/master/JavaProjects/Level_Crossing/testdata.md)**
