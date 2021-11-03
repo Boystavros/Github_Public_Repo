@@ -18,4 +18,8 @@
   | Type of key (String or integer) |	String |
   | Type of value (must be from Collections framework) |	Set of Strings |
   | Type of map (sorted or unsorted) |	unsorted |
+
+  Test inputs for testing this application can be found in [testdata.md](../testdata.md)
+
   </h5>
+
